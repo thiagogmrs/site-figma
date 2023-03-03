@@ -48,7 +48,6 @@ body{
     background: var(--color-2);
     padding: var(--size-2);
     display: inline-block;
-    border-radius: var(--size-1);
     text-transform: uppercase;
     outline: none;
     border: none;

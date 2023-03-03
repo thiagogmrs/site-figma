@@ -1,0 +1,49 @@
+.motivos-introducao-texto{
+    padding: 80px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-transform: lowercase;
+    background: url(../decor/decor-2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 40px right;
+    background-size: 70px;
+}
+.motivos-introducao-bg{
+     padding: 120px 0;
+     background: var(--color-3);
+     box-shadow: inset 300px 0px 0px #fff;
+}
+.motivos-introducao{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.motivos-introducao-info{
+    text-transform: uppercase;
+}
+.motivos-introducao-info h1{
+    color: var(--color-1);
+}
+.motivos-introducao-menu{
+    color: var(--color-1);
+    padding: 30px 0;
+}
+.motivos-introducao-menu li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.motivos-introducao-menu li + li{
+     margin-top: 15px;
+}
+.motivos-introducao-menu li::before{
+    content: '';
+    background-image: url(../img/polygon-1.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
