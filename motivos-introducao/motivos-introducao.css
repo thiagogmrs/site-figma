@@ -1,17 +1,19 @@
+.motivos-introducao-container{
+    padding: 0px 0px 0px 75px;
+}
 .motivos-introducao-texto{
-    padding: 80px 15px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 60px 0px;
     text-transform: lowercase;
     background: url(../decor/decor-2.svg);
     background-repeat: no-repeat;
-    background-position: bottom 40px right;
-    background-size: 70px;
+    background-position: center right -40px;
+    background-size: 230px;
+    /* background: blue; */
 }
 .motivos-introducao-bg{
-     padding: 120px 0;
-     background: var(--color-3);
-     box-shadow: inset 300px 0px 0px #fff;
+    padding: 60px 0;
+    background: var(--color-3);
+    box-shadow: inset 300px 0px 0px #fff;
 }
 .motivos-introducao{
     max-width: 1200px;
@@ -36,7 +38,7 @@
     gap: 10px;
 }
 .motivos-introducao-menu li + li{
-     margin-top: 15px;
+    margin-top: 15px;
 }
 .motivos-introducao-menu li::before{
     content: '';
