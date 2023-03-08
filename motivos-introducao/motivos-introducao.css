@@ -8,10 +8,6 @@
     padding: 60px 0px;
     background: var(--color-3);
     box-shadow: inset 300px 0px 0px #fff;
-    background-image: url(../decor/decor-2.svg);
-    background-repeat: no-repeat;
-    background-position: bottom 30px right 60px;
-    background-size: 70px;
 }
 .motivos-introducao{
     max-width: 1200px;
@@ -23,6 +19,10 @@
 }
 .motivos-introducao-info{
     text-transform: uppercase;
+    background-image: url(../decor/decor-2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 30px right;
+    background-size: 70px;
 }
 .motivos-introducao-info h1{
     color: var(--color-1);

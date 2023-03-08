@@ -1,0 +1,22 @@
+.whatsapp-bg{
+    background: var(--color-2);
+    box-shadow: inset 0px 70px 0px 0px #fff, inset 0px -70px 0px 0px #fff;
+}
+.whatsapp{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.whatsapp-info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.whatsapp-texto{
+    padding-top: 140px;
+}
+.whatsapp-img img{
+    max-width: 450px;
+}

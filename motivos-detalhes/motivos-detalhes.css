@@ -1,5 +1,6 @@
 .motivos-detalhes-bg{
     background: var(--color-3);
+    margin-bottom: 120px;
 }
 .motivos-detalhes{
     max-width: 1200px;
@@ -20,4 +21,5 @@
 }
 .motivos-items p{
     padding: 15px;
+    max-width: 50ch;
 }
