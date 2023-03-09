@@ -1,6 +1,6 @@
 .whatsapp-bg{
     background: var(--color-2);
-    box-shadow: inset 0px 70px 0px 0px #fff, inset 0px -70px 0px 0px #fff;
+    box-shadow: inset 0px 40px 0px 0px #fff, inset 0px -40px 0px 0px #fff;
 }
 .whatsapp{
     max-width: 1200px;
@@ -13,10 +13,28 @@
 .whatsapp-info{
     display: grid;
     grid-template-rows: 1fr 1fr;
+    gap: 20px;
 }
 .whatsapp-texto{
-    padding-top: 140px;
+    /* padding-top: 140px; */
+    display: flex;
+    align-items: end;
+}
+.whatsapp-texto h1{
+    color: var(--color-1);
+    text-transform: uppercase;
+}
+.whatsapp-img{
+    display: grid;
+    justify-items: end;
 }
 .whatsapp-img img{
     max-width: 450px;
+}
+.whatsapp-btn a{
+    background: var(--color-1);
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
 }

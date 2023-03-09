@@ -1,25 +1,49 @@
 .motivos-detalhes-bg{
     background: var(--color-3);
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 .motivos-detalhes{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 50px;
     padding: 60px 15px;
 }
 .motivos-items{
      color: var(--color-4);
+     display: flex;
+     flex-direction: column;
+     justify-items: flex-start;
 }
+/* .motivos-detalhes div:nth-child(1){
+    background: blue;
+} */
 .motivos-items h2{
-    color: var(--color-3);
-    background: #fff;
-    padding: 15px;
-    max-width: 500px;
+    color: var(--color-1);
+    background: transparent;
+    max-width: 600px;
+    font-size: 1.5rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.motivos-items h2::before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--color-2);
+    display: flex;
+    position: absolute;
+    left: -25px;
+}
+.bg-orange {
+    background: var(--color-2) !important;
+    color: #fff !important;
 }
 .motivos-items p{
-    padding: 15px;
-    max-width: 50ch;
+    line-height: 1.4;
+    font-size: 1.2rem;
 }
