@@ -1,0 +1,12 @@
+.email-bg{
+   background: #333;
+}
+.email{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--color-1);
+    padding: 40px 0;
+}
