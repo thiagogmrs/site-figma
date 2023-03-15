@@ -1,9 +1,27 @@
+.introducao-depoimentos-contain{
+  background: var(--color-3);
+}
 .introducao-depoimentos{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 15px;
+    padding: 80px 15px 10px 15px;
     text-transform: lowercase;
     font-size: 2rem;
+    color: var(--color-1);
+    display: flex;
+    position: relative;
+    max-width: max-content;
+}
+.introducao-depoimentos::after{
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: var(--color-2);
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  right: -0px;
+  bottom: 17px;
 }
 .depoimentos-bg{
     background: var(--color-3);

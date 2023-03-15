@@ -43,6 +43,7 @@ body{
     font-family: var(--font-primary);
     color: var(--color-3);
     height: 3000px;
+    background: #333;
 }
 /*btn*/
 .btn{

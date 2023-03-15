@@ -3,11 +3,12 @@
     margin: 0 auto;
     padding: 40px 15px;
     text-transform: lowercase;
+    color: var(--color-1);
 }
 .motivos-introducao-bg{
     padding: 60px 0px;
     background: var(--color-3);
-    box-shadow: inset 300px 0px 0px #fff;
+    box-shadow: inset 300px 0px 0px #333;
 }
 .motivos-introducao{
     max-width: 1200px;
