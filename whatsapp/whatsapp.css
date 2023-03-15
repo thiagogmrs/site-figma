@@ -9,6 +9,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
+@media (max-width: 900px){
+    .whatsapp{
+        grid-template-columns: 1fr;
+        padding-bottom: 60px;
+    }
+}
 .whatsapp-info{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -26,8 +32,23 @@
     display: grid;
     justify-items: end;
 }
+@media (max-width: 900px){
+    .whatsapp-img{
+        justify-items: normal;
+        height: 200px;
+        width: 100%;
+        order: -1;
+        background: url("../img/whatsappmedia.svg") no-repeat center center;
+        background-size: cover;
+    }
+}
 .whatsapp-img img{
     max-width: 450px;
+}
+@media (max-width: 900px){
+    .whatsapp-img img {
+        display: none;
+    }
 }
 .whatsapp-btn a{
     background: var(--color-1);

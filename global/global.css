@@ -107,6 +107,11 @@ body{
     text-decoration: none;
     transition: background, padding 500ms ease-in-out;  
   }
+  @media (max-width: 650px){
+    .botao{
+        display: none;
+    }
+  }
   
   @keyframes alerta {
     0% {

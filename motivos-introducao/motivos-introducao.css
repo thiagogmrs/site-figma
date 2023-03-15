@@ -10,6 +10,11 @@
     background: var(--color-3);
     box-shadow: inset 300px 0px 0px #333;
 }
+@media (max-width: 900px){
+    .motivos-introducao-bg{
+        box-shadow: none;
+    }
+}
 .motivos-introducao{
     max-width: 1200px;
     margin: 0 auto;
@@ -18,12 +23,27 @@
     gap: 15px;
     padding: 0px 15px;
 }
+@media (max-width: 900px){
+.motivos-introducao{
+    grid-template-columns: 1fr;
+}
+}
+@media (max-width: 900px){
+    .motivos-introducao-img{
+        display: none;
+    }
+}
 .motivos-introducao-info{
     text-transform: uppercase;
     background-image: url(../decor/decor-2.svg);
     background-repeat: no-repeat;
     background-position: bottom 30px right;
     background-size: 70px;
+}
+@media (max-width: 900px){
+    .motivos-introducao-info{
+        background-position: bottom -10px right;
+    }
 }
 .motivos-introducao-info h1{
     color: var(--color-1);
