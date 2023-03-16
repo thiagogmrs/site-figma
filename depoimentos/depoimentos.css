@@ -12,6 +12,11 @@
     position: relative;
     max-width: max-content;
 }
+@media (max-width: 800px){
+  .introducao-depoimentos{
+    padding: 30px 15px 10px 15px;
+  }
+}
 /* .introducao-depoimentos::after{
   content: '';
   width: 12px;
@@ -26,6 +31,11 @@
 .depoimentos-bg{
     background: var(--color-3);
     padding: 40px 0;
+}
+@media (max-width: 800px){
+   .depoimentos-bg{
+    padding: 20px 0;
+  }
 }
 .depoimentos{
     max-width: 1200px;
@@ -49,10 +59,25 @@
   .number-slide1 {
     background: url(../img/slide-1.svg);
   }
+  @media (max-width: 1100px){
+    .number-slide1{
+      background: url(../img/slide-3.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
   .number-slide2 {
     background: url(../img/slide-2.svg);
   }
-  
+  @media (max-width: 1100px){
+    .number-slide2{
+      background: url(../img/slide-4.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
   .number-slide3 {
     background: rgb(182, 255, 64);
     background: linear-gradient(
