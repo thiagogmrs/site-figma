@@ -67,6 +67,21 @@
   overflow-y: auto;
   min-width: 100%;
 }
+.form input[type="submit"]{
+    grid-column: 2;
+    justify-self: end;
+    padding: 10px 20px;
+    border: none;
+    background: #e4e4e4;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+@media (max-width: 700px){
+    .form input[type="submit"]{
+        grid-column: initial;
+    }
+}
 .col-full{
     grid-column: 1/3;
 }

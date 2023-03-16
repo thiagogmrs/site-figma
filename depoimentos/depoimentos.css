@@ -12,7 +12,7 @@
     position: relative;
     max-width: max-content;
 }
-.introducao-depoimentos::after{
+/* .introducao-depoimentos::after{
   content: '';
   width: 12px;
   height: 12px;
@@ -22,7 +22,7 @@
   position: absolute;
   right: -0px;
   bottom: 17px;
-}
+} */
 .depoimentos-bg{
     background: var(--color-3);
     padding: 40px 0;

@@ -50,10 +50,38 @@
         display: none;
     }
 }
+.whatsapp-btn{
+    display: flex;
+}
 .whatsapp-btn a{
     background: var(--color-1);
     padding: 15px 25px;
     text-transform: uppercase;
     font-weight: bold;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: auto 40px;
+    align-items: center;
+    justify-self: flex-start;
+    align-self: flex-start;
+    gap: 10px;
+    position: relative;
 }
+.seta-span{
+    animation: seta 0.5s ease-in 0s infinite alternate;
+    position: absolute;
+    font-size: 1.5rem;
+
+}
+.whatsapp-span{
+    color: rgb(52, 175, 35);
+    }
+
+@keyframes seta {
+    from {
+      right: 30px;
+    }
+    to {
+      right: 20px;
+    }
+  }
+  
