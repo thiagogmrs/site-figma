@@ -7,6 +7,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: start;
     gap: 50px;
     padding: 60px 35px;
 }
@@ -26,14 +27,18 @@
 } */
 .motivos-items h2{
     color: var(--color-1);
-    background: transparent;
     max-width: 600px;
     font-size: 1.5rem;
     display: flex;
     position: relative;
     align-items: center;
-    margin-bottom: 20px;
-    height: 40px;
+    margin-bottom: 15px;
+    height: 90px;
+}
+@media (max-width: 650px){
+    .motivos-items h2{
+        height: 60px;
+    }
 }
 .motivos-items h2::before{
     content: '';
