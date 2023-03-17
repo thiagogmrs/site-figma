@@ -22,9 +22,6 @@
      flex-direction: column;
      justify-items: flex-start;
 }
-/* .motivos-detalhes div:nth-child(1){
-    background: blue;
-} */
 .motivos-items h2{
     color: var(--color-1);
     max-width: 600px;
@@ -33,7 +30,8 @@
     position: relative;
     align-items: center;
     margin-bottom: 15px;
-    height: 90px;
+    height: 60px;
+    background: blue;
 }
 @media (max-width: 650px){
     .motivos-items h2{
