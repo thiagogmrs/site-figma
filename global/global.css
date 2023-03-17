@@ -86,12 +86,33 @@ body{
 }
 .span-orange{
     color: var(--color-2);
+    font-weight: 600;
 }
 .btn-whats{
     position: fixed;
     right: 40px;
     bottom: 40px;
 }
+.btn-mobile{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: var(--size-4);
+    position: fixed;
+    background: var(--color-2);
+    color: var(--color-1);
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 650px){
+    .btn-mobile{
+        display: flex;
+    }
+  }
 .botao {
     background: #09a513;
     color: white;
