@@ -31,7 +31,6 @@
     align-items: center;
     margin-bottom: 15px;
     height: 60px;
-    background: blue;
 }
 @media (max-width: 650px){
     .motivos-items h2{
