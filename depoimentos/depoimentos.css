@@ -1,20 +1,16 @@
 .introducao-depoimentos-contain{
-  background: var(--color-3);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 15px;
 }
 .introducao-depoimentos{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 15px 10px 15px;
     text-transform: lowercase;
-    font-size: 2rem;
+    font-size: var(--font-2);
     color: var(--color-1);
-    display: flex;
-    position: relative;
-    overflow: hidden;
 }
 @media (max-width: 800px){
   .introducao-depoimentos{
-    padding: 30px 15px 10px 15px;
+    /* padding: 30px 15px 10px 15px; */
   }
 }
 .keen-slider__slide{
@@ -65,16 +61,6 @@
     margin: 0 auto;
     padding: 0 15px;
 }
- /* 
-    [class^="number-slide"],
-    [class*=" number-slide"] {
-    background: grey;
-    display: flex;
-    color: #fff;
-    max-height: 100vh;
-  }
-*/
-
 .slider-btn{
     padding: 40px 0;
     display: grid;
