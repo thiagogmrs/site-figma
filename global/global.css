@@ -22,22 +22,24 @@ img{
     --font-primary: 'Roboto', sans-serif;
     --font-secundary: 'Viga', sans-serif;
     --color-1: #fff;
-    --color-2: #ff5e00;
-    --color-3: #222;
     --color-4: #DCDCDC;
-    --color-5:  #c94e07;
+    --color-2: #ff5e00;
+    --color-5: #c94e07;
+    --color-3: #222;
+    --color-6: #333;
     --space-1: 0.625rem; /*10px*/
     --space-2: 0.938rem; /*15px*/
     --space-3: 1.25rem;  /*20px*/
     --space-4: 1.563rem; /*25px*/
     --space-5: 1.875rem; /*30px*/
-    --size-1: 0.313rem;  /*5px*/
-    --size-2: 0.625rem;  /*10px*/
-    --size-3: 0.938rem;  /*15px*/
-    --size-4: 1.25rem;   /*20px*/
-    --size-5: 1.5rem;  /*25px*/
-    --size-6: 2rem;      /*32px*/
-    --size-7: 3rem;     
+    --font-: 1.5rem; 
+    --font-2: 2rem;  /*10px*/
+    --font-3: 2.5rem;  /*15px*/
+    --font-4: 3rem;   /*20px*/
+    --font-mobile: 1rem;
+    --font-mobile-2: 1.4rem;
+    --font-mobile-3: 1.8rem;
+    --font-mobile-4: 2rem;
 } 
 body{
     font-family: var(--font-primary);

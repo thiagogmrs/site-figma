@@ -85,4 +85,8 @@
   padding: 10px 20px;
   background: var(--color-1);
   text-transform: uppercase;
+  font-weight: 600;
+}
+.slider-btn a:hover{
+  background: #dcdcdc;
 }
