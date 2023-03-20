@@ -38,8 +38,8 @@
 }
 @media (max-width: 900px){
     .menu-introducao a{
-        padding: 5px 10px;
-        background: var(--color-6);
+    padding: 5px 10px;
+    background: var(--color-6);
     }
 }
 .menu-introducao a::after{
@@ -91,8 +91,21 @@
     margin-bottom: 30px;
     color: var(--color-1);
 }
-.row-2-introducao h1{
-    font-size: var(--size-7);
+.row-2-titulo h1{
+    font-size: var(--font-4);
+}
+@media (max-width: 600px){
+    .row-2-titulo h1{
+    font-size: var(--font-mobile-4);
+    }
+}
+.row-2-titulo p{
+    font-size: var(--font-1);
+}
+@media (max-width: 600px){
+    .row-2-titulo p{
+        font-size: var(--font-mobile-);
+    }
 }
 .s-titulo{
     color: var(--color-2);
