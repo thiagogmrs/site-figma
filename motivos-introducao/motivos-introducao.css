@@ -2,7 +2,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 15px;
-    text-transform: lowercase;
     color: var(--color-1);
 }
 .motivos-introducao-bg{
@@ -34,7 +33,6 @@
     }
 }
 .motivos-introducao-info{
-    text-transform: uppercase;
     background-image: url(../decor/decor-2.svg);
     background-repeat: no-repeat;
     background-position: bottom 30px right;
@@ -45,8 +43,10 @@
         background-position: bottom -10px right;
     }
 }
-.motivos-introducao-info h1{
+.motivos-introducao-info h2{
     color: var(--color-1);
+
+
 }
 @media (max-width: 900px){
     .motivos-introducao-info h1{
