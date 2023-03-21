@@ -40,6 +40,7 @@
     }
 }
 .f-2 h2{
+    font-size: var(--font-1);
     margin-bottom: 20px;
 }
 .f-3{
