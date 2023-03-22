@@ -8,6 +8,7 @@
     padding: 10px 15px;
     margin: 0 auto;
     color: var(--color-1);
+    font-size: 13px;
 }
 .super-info a:hover{
     color: #c3c3c3;
@@ -76,7 +77,6 @@
 }
 .menu-introducao li a{
     color: var(--color-1);
-    font-size: var(--size-4);
     font-weight: 700;
 }
 .row-2-introducao{
