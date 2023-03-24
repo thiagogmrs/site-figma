@@ -67,7 +67,7 @@
   overflow-y: auto;
   min-width: 100%;
 }
-.form input[type="submit"]{
+.btn-email[type="submit"]{
     grid-column: 2;
     justify-self: end;
     padding: 10px 20px;
@@ -76,9 +76,10 @@
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 500;
+    color: var(--color-3);
 }
 @media (max-width: 700px){
-    .form input[type="submit"]{
+    .btn-email[type="submit"]{
         grid-column: initial;
     }
 }
