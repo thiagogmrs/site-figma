@@ -13,6 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css"
@@ -180,19 +181,19 @@
             <form class="form" id="form" action="./enviar.php" method="POST" >
               <div>
                 <label for="name">Nome</label>
-                <input type="text" id="name">
+                <input type="text" id="name" name="Nome">
               </div>
               <div>
                 <label for="lname">Sobrenome</label>
-                <input type="text" id="lname">
+                <input type="text" id="lname" name="Sobrenome">
               </div>
               <div class="col-full">
                 <label for="email">Email</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" name="Email" required>
               </div>
               <div class="col-full">
               <label for="message">Mensagem</label>
-                <textarea id="message">
+                <textarea id="message" name="Mensagem">
                 </textarea>
               </div>
               <button class="btn-email" type="submit">Enviar</button>
@@ -224,8 +225,11 @@
           <i class="fa fa-whatsapp"></i>
         </a>
     </div>
+    <!--btn-back-to-top-->
+    <button onclick="topFunction()" id="btn-mobile" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <!--end-->
     <!--btn-mobile-->
-    <div class="btn-mobile">
+    <div id="btn-mobile">
       <span>^</span>
     </div>
     <!--scripts-->
