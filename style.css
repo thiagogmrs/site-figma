@@ -10,9 +10,6 @@
 /*motivos-detalhes*/
 @import url(./motivos-detalhes/motivos-detalhes.css);
 
-/*whatsapp*/
-@import url(./whatsapp/whatsapp.css);
-
 /*depoimentos*/
 @import url(./depoimentos/depoimentos.css);
 
@@ -21,3 +18,6 @@
 
 /*footer*/
 @import url(./footer/footer.css);
+
+/*whatsapp*/
+@import url(./whatsapp/whatsapp.css);
